@@ -76,7 +76,7 @@ export class JokeApp extends Component {
             />
         );
 
-        if (this.state.isLoading) {
+        if (this.state.isLoading || this.state.jokes.length === 0) {
             return (
                 <div className="spinner">
                     <i className="far fa-8x fa-laugh fa-spin" />
