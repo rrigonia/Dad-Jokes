@@ -16,7 +16,7 @@ export class Aside extends Component {
             <div className="Aside">
                 <h1 className="Aside-title"><span>Dad</span> JOKES</h1>
                 <img src="https://assets.dryicons.com/uploads/icon/svg/8927/0eb14c71-38f2-433a-bfc8-23d9c99b3647.svg" />
-                <button className="Aside-getMore" onClick={this.handleClick}>New Jokes</button>
+                <button className="Aside-getMore" onClick={this.handleClick}>Fetch Jokes</button>
             </div>
         )
     }
