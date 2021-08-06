@@ -1,0 +1,30 @@
+
+.JokeApp{
+    display: flex;
+    /* justify-content: center; */
+    width: 80%;
+    height: 80%;
+}
+
+
+.JokeApp-jokes{
+    background: #fff;
+    height: 90%;
+    width: 70%;
+    overflow: auto;
+    align-self: center;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.1);
+}
+
+.JokeApp-title{
+  font-size: 3.5rem;
+  margin: 2rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+}
+
+.spinner{
+  color: white;
+}
+ 
